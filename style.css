@@ -1,0 +1,131 @@
+@font-face {
+    font-family: Poppins;
+    src: url(/Poppins-Regular.ttf);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(0, 0%, 98%);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins-Regular', sans-serif;
+}
+
+body {
+    overflow: auto;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header p {
+    position: relative;
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    color: hsl(229, 6%, 66%);
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 32px;
+    color: hsl(234, 12%, 34%);
+}
+
+h1 {
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+}
+
+main {
+    display: flex;
+    height: 100%;
+    width: 65%;
+    gap: 25px;
+}
+
+section#kaire, section#vidurys, section#desine {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+h3, h4, h5, h6 {
+    color: hsl(234, 12%, 34%);
+    font-size: 24px;
+}
+
+section p {
+    color: hsl(229, 6%, 66%);
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+img {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    right: 0;
+    margin: 35px;
+}
+
+div.container {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    box-shadow: 3px 3px 10px 10px hsla(212, 86%, 64%, 0.082);
+    background-color: white;
+    border-radius: 10px;
+}
+
+div.supervisor {
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+div.tb {
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+div.karma {
+    border-top: 4px solid hsl(34, 97%, 64%);
+    margin-top: 30px;
+}
+
+div#parametrai {
+    position: relative;
+    width: 400px;
+    height: 320px;
+}
+
+div.top-border {
+    width: 100%;
+    border: 2px solid hsl(212, 86%, 64%);
+    border-radius: 20px;
+}
